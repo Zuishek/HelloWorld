@@ -2,4 +2,4 @@
 
 *This is a new World*
 
-[Visit GitHub!](www.github.com)
+[Visit Twitter!](www.twitter.com)
