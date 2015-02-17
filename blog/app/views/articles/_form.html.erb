@@ -1,4 +1,4 @@
-<%= form_for @article do |f| %>
+<%= form_for @article, :html =>{ :multipart => true} do |f| %>
 
    <% if @article.errors.any? %>
      <div id="error_explanataion">
@@ -23,7 +23,9 @@
      	<%= f.label :text %><br>
         <%= f.text_area :text %>
      </p>
-
+      <p>
+          <%= f.file_field :photo%>
+      </p>
      <p>
      	<%= f.submit %>
      </p>
