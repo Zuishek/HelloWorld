@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
     def tarek
     end
+
+    def amy
+    end
 end

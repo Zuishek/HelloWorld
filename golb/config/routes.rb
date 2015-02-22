@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get 'pages/alfy'
   get 'pages/karim'
   get 'pages/rana'
+  get 'pages/amy'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
