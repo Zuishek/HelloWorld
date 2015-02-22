@@ -1,5 +1,5 @@
-class ArticlesController < ApplicationController
-	
+class ArticlesController < BlogController
+
 	def index
 		@articles = Article.all.reverse
 	end
