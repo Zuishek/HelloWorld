@@ -17,7 +17,7 @@
 
 		<ul>
 			<li class="category">Website</li>
-			<li><%= link_to "Blog", root_path %></li>
+			<li><%= link_to "Home", root_path %></li>
 		</ul>
 
 		<ul>
@@ -40,6 +40,7 @@
  
       <div class="buttons">
         <button class="button"><%= link_to "New Article", new_article_path %></button>
+       <button class="button"><%= link_to "Admins", controller: 'pages' %>
         <button class="button"><%= render 'devise/menu/login_tools' %>
         <button class="button"><%= render 'devise/menu/registration_items' %>
       </div>

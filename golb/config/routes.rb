@@ -5,7 +5,16 @@ Rails.application.routes.draw do
 
   devise_for :users
   root "welcome#index"
+  get 'pages/index'
 
+  
+  get 'pages/atarek'
+  get 'pages/aya'
+  get 'pages/walid'
+  get 'pages/tarek'
+  get 'pages/alfy'
+  get 'pages/karim'
+  get 'pages/rana'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
