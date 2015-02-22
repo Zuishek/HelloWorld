@@ -55409,3 +55409,640 @@ Processing by WelcomeController#index as HTML
   Rendered devise/menu/_login_tools.html.erb (0.1ms)
   Rendered devise/menu/_registration_items.html.erb (0.1ms)
 Completed 200 OK in 280ms (Views: 278.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-22 20:49:10 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/a_walid/Desktop/HelloWorld/golb/app/assets/stylesheets/_normalize.css.scss to /Users/a_walid/Desktop/HelloWorld/golb/app/assets/stylesheets/_normalize.scss. (called from deprecate_extra_css_extension at /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/sass-rails-5.0.1/lib/sass/rails/importer.rb:130)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/a_walid/Desktop/HelloWorld/golb/app/assets/stylesheets/_normalize.css.scss to /Users/a_walid/Desktop/HelloWorld/golb/app/assets/stylesheets/_normalize.scss. (called from deprecate_extra_css_extension at /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/sass-rails-5.0.1/lib/sass/rails/importer.rb:130)
+  Rendered devise/menu/_login_tools.html.erb (0.7ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+Completed 200 OK in 487ms (Views: 477.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_normalize-4607782d9873cc0a4345303f8a6bf998.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/blog-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/sub_comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/youtubes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/application-322229fd5e04bba319f6841812b84cc7.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/social-share-button-d83acda8b1d1efd7c79e26d55c7922b2.css?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/blog-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/sub_comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/youtubes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/social-share-button-9af7f557d2be296807238965fb21f8f0.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/assets/application-2c0e98cf181563273bd28c66f473babe.js?body=1" for ::1 at 2015-02-22 20:49:10 +0200
+
+
+Started GET "/pages/index" for ::1 at 2015-02-22 20:49:17 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+  Rendered devise/menu/_login_tools.html.erb (0.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+Completed 200 OK in 281ms (Views: 280.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/walid" for ::1 at 2015-02-22 20:49:19 +0200
+Processing by PagesController#walid as HTML
+  Rendered pages/walid.html.erb within layouts/application (0.3ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 291ms (Views: 290.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/IMG_0048.jpg" for ::1 at 2015-02-22 20:49:19 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/IMG_0048.jpg"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/a_walid/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/a_walid/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/a_walid/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (6.3ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (71.3ms)
+
+
+Started GET "/pages/walid" for ::1 at 2015-02-22 20:49:31 +0200
+Processing by PagesController#walid as HTML
+  Rendered pages/walid.html.erb within layouts/application (0.5ms)
+  Rendered devise/menu/_login_tools.html.erb (0.2ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 267ms (Views: 267.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_normalize-4607782d9873cc0a4345303f8a6bf998.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/blog-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/sub_comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:31 +0200
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/youtubes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/application-322229fd5e04bba319f6841812b84cc7.css?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/social-share-button-d83acda8b1d1efd7c79e26d55c7922b2.css?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/blog-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/sub_comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/youtubes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/social-share-button-9af7f557d2be296807238965fb21f8f0.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/application-2c0e98cf181563273bd28c66f473babe.js?body=1" for ::1 at 2015-02-22 20:49:32 +0200
+
+
+Started GET "/assets/images/IMG_0048.jpg" for ::1 at 2015-02-22 20:49:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/IMG_0048.jpg"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  /Users/a_walid/.rvm/gems/ruby-2.1.1@global/gems/rack-1.6.0/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/a_walid/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/a_walid/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/a_walid/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (6.9ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/a_walid/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (57.9ms)
+
+
+Started GET "/articles" for ::1 at 2015-02-22 20:49:45 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for ::1 at 2015-02-22 20:49:45 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.3ms)
+  Rendered devise/menu/_login_tools.html.erb (0.4ms)
+  Rendered devise/menu/_registration_items.html.erb (0.2ms)
+Completed 200 OK in 311ms (Views: 300.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-02-22 20:49:52 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 293ms (Views: 292.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_normalize-4607782d9873cc0a4345303f8a6bf998.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/blog-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/sub_comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/application-322229fd5e04bba319f6841812b84cc7.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/youtubes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/social-share-button-d83acda8b1d1efd7c79e26d55c7922b2.css?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/blog-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:52 +0200
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/sub_comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/youtubes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/social-share-button-9af7f557d2be296807238965fb21f8f0.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/assets/application-2c0e98cf181563273bd28c66f473babe.js?body=1" for ::1 at 2015-02-22 20:49:53 +0200
+
+
+Started GET "/pages/index" for ::1 at 2015-02-22 20:50:00 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 277ms (Views: 276.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-02-22 20:50:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 273ms (Views: 271.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-02-22 20:50:10 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ir3loyUlOUdpVxiVFH1SEitW5eijRgny+haM25vkMPYNQZwGj+YWQFJJ6x8gkQpYZ9AbsmcMQk7e0FWXucqF6A==", "user"=>{"email"=>"Zuishek@Zuishek.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "zuishek@zuishek.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-02-22 15:01:57.075463"], ["current_sign_in_at", "2015-02-22 18:50:10.699662"], ["sign_in_count", 6], ["updated_at", "2015-02-22 18:50:10.701025"], ["id", 3]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 81ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/articles" for ::1 at 2015-02-22 20:50:10 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.3ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 288ms (Views: 276.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/_normalize-4607782d9873cc0a4345303f8a6bf998.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/blog-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/sub_comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/application-322229fd5e04bba319f6841812b84cc7.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/social-share-button-d83acda8b1d1efd7c79e26d55c7922b2.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/youtubes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/blog-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/sub_comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/youtubes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/social-share-button-9af7f557d2be296807238965fb21f8f0.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/assets/application-2c0e98cf181563273bd28c66f473babe.js?body=1" for ::1 at 2015-02-22 20:50:11 +0200
+
+
+Started GET "/articles/15" for ::1 at 2015-02-22 20:50:14 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."article_id" = ?  [["article_id", 15]]
+  Rendered collection (0.0ms)
+  Rendered photos/_form.html.erb (11.4ms)
+  [1m[36mYoutube Load (0.1ms)[0m  [1mSELECT "youtubes".* FROM "youtubes" WHERE "youtubes"."article_id" = ?[0m  [["article_id", 15]]
+  Rendered collection (0.0ms)
+  Rendered youtubes/_form.html.erb (5.4ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?  [["article_id", 15]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 15]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered articles/show.html.erb within layouts/application (60.4ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 356ms (Views: 351.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/sprites/social-share-button-2f1744f04bcaba404a2cd53f1a50c452.png" for ::1 at 2015-02-22 20:50:14 +0200
+
+
+Started GET "/articles/15/comments/5" for ::1 at 2015-02-22 20:50:53 +0200
+Processing by CommentsController#show as HTML
+  Parameters: {"article_id"=>"15", "id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36mSubComment Load (0.2ms)[0m  [1mSELECT "sub_comments".* FROM "sub_comments" WHERE "sub_comments"."comment_id" = ?[0m  [["comment_id", 5]]
+  Rendered sub_comments/_sub_comment.html.erb (1.4ms)
+  Rendered sub_comments/_form.html.erb (2.1ms)
+  Rendered comments/show.html.erb within layouts/application (16.3ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 309ms (Views: 306.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/15/comments/5" for ::1 at 2015-02-22 20:54:13 +0200
+Processing by CommentsController#show as HTML
+  Parameters: {"article_id"=>"15", "id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36mSubComment Load (0.1ms)[0m  [1mSELECT "sub_comments".* FROM "sub_comments" WHERE "sub_comments"."comment_id" = ?[0m  [["comment_id", 5]]
+  Rendered sub_comments/_sub_comment.html.erb (1.4ms)
+  Rendered sub_comments/_form.html.erb (2.0ms)
+  Rendered comments/show.html.erb within layouts/application (7.6ms)
+  Rendered devise/menu/_login_tools.html.erb (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 298ms (Views: 296.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize-4607782d9873cc0a4345303f8a6bf998.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/blog-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/sub_comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/application-322229fd5e04bba319f6841812b84cc7.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/social-share-button-d83acda8b1d1efd7c79e26d55c7922b2.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/youtubes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/blog-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/sub_comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/social-share-button-9af7f557d2be296807238965fb21f8f0.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/youtubes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/assets/application-2c0e98cf181563273bd28c66f473babe.js?body=1" for ::1 at 2015-02-22 20:54:13 +0200
+
+
+Started GET "/articles/15" for ::1 at 2015-02-22 20:54:16 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."article_id" = ?  [["article_id", 15]]
+  Rendered collection (0.0ms)
+  Rendered photos/_form.html.erb (1.2ms)
+  [1m[36mYoutube Load (0.1ms)[0m  [1mSELECT "youtubes".* FROM "youtubes" WHERE "youtubes"."article_id" = ?[0m  [["article_id", 15]]
+  Rendered collection (0.0ms)
+  Rendered youtubes/_form.html.erb (1.7ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?  [["article_id", 15]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 15]]
+  Rendered comments/_comment.html.erb (0.5ms)
+  Rendered comments/_form.html.erb (1.8ms)
+  Rendered articles/show.html.erb within layouts/application (13.1ms)
+  Rendered devise/menu/_login_tools.html.erb (0.3ms)
+  Rendered devise/menu/_registration_items.html.erb (0.1ms)
+Completed 200 OK in 305ms (Views: 303.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sprites/social-share-button-2f1744f04bcaba404a2cd53f1a50c452.png" for ::1 at 2015-02-22 20:54:16 +0200
