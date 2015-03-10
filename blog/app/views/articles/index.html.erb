@@ -1,0 +1,20 @@
+<% @articles.each do |article| %>
+	<div class="post_wrapper">
+		<h2 class="title"><%= link_to article.title, article %></h2>
+		<p class="date"><%= article.created_at.strftime("%B %d, %Y") %></p>
+
+		
+		<button type="button" class="btn btn-info" aria-label="Left Align">
+		<span class="glyphicon glyphicon-thumbs-up glyphicon-align-center" aria-hidden="true"></span>
+		<span class="badge"><%= article.get_upvotes.size %></span>
+	</button>
+	
+      
+		<button type="button" class="btn btn-info" aria-label="Left Align">
+		<span class="glyphicon glyphicon-thumbs-down glyphicon-align-center" aria-hidden="true"></span>
+		<span class="badge"><%= article.get_downvotes.size %></span>
+	</button>
+	
+
+	</div>
+<% end %>

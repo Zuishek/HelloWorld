@@ -1,0 +1,47 @@
+	<div id="post_content">
+		<h1 class="title"><%= @article.title %></h1>
+		<p class="date">
+			Submitted <%= time_ago_in_words(@article.created_at) %> Ago
+			<% if current_user.try(:admin?) %>
+			| <%= link_to 'Edit', edit_article_path(@article), class: "button"%> |
+			  <%= link_to 'Delete', article_path(@article), class: "button", method: :delete, data: { confirm: 'Are you sure?' } %>
+		  <% end %>
+		</p>
+		<p class="body"><%= @article.text %></p>
+
+		<%= link_to like_article_path(@article), class: "like", method: :put do%>
+		<button type="button" class="btn btn-info" aria-label="Left Align">
+		<span class="glyphicon glyphicon-thumbs-up glyphicon-align-center" aria-hidden="true"></span>
+		<span class="badge"><%= @article.get_upvotes.size %></span>
+	</button>
+	<% end %>
+      
+         <%=link_to unlike_article_path(@article), class: "like", method: :put do%>
+		<button type="button" class="btn btn-info" aria-label="Left Align">
+		<span class="glyphicon glyphicon-thumbs-down glyphicon-align-center" aria-hidden="true"></span>
+		<span class="badge"><%= @article.get_downvotes.size %></span>
+	</button>
+	<% end %>
+		
+
+		<div id="comments">
+			<h2>Photos</h2>
+			<%= render @article.photos %>
+			<%= render 'photos/form' %>
+
+			<h2>Videos</h2>
+			<%= render @article.youtubes %>
+			<%= render 'youtubes/form' %>
+
+			<h2>Share on Facebook or G+</h2>
+			<%= social_share_button_tag(@article.title, :popup => "true") %>
+			<h2><%= @article.comments.count %> Comments</h2>
+			<%= render @article.comments %>
+
+			<h3>Add a comment:</h3>
+			<%= render "comments/form" %>
+
+			
+
+		</div>
+	</div>
