@@ -18,13 +18,14 @@ module NavigationHelpers
 
     # Add more mappings here.
   when /the welcome page/
-    index_welcome_path
+    root_path
 
-  when /the list of conversations/
+  when /the messages page/
     conversations_path
+ 
+  when /the edit registration page/
+    edit_user_registration_path
 
-  when /the list of posts/
-    posts_path
     # Here is an example that pulls values out of the Regexp:
     #
     #   when /^(.*)'s profile page$/i
