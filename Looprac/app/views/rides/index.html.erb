@@ -1,0 +1,31 @@
+<br>
+<div class="list-group">
+  <% @rides.each do |r| %>
+
+    <div class="list-group-item clearfix">
+      <% @user = @users.find(r.user_id) %> 
+      <h4 class="list-group-item-heading"> <%= link_to @user.username, @user %> offered a ride from <%= @landmarks.find(r.source_id).name %> to <%= @landmarks.find(r.destination_id).name %> </h4>
+      <p class="list-group-item-text"> Number of seats: <%= r.seatNum %> </p>
+      <p class="list-group-item-text"> Description: <%= r.description %> </p>
+      <% if not current_user.id == r.user_id  %>
+        <br>
+        <% if @ride_req_array.fetch(r.id).include?(current_user.id) %>
+        <!-- @author: Zuishek, Modified the button to be disabled once the request has been sent -->
+           <button type="button" class="btn btn-default disabled" >Ride Request sent </button>
+
+           <%= link_to 'New Message', new_message_path(:id => r.user_id), class: 'btn btn-default btn-primary' %>
+        <% else %>
+          <button type="button" class="btn btn-default" ><%= link_to 'Send Request', requests_path(:ride_id => r.id, :requester_id => current_user.id), :method => :post %></button>
+        <% end %>    
+      <% end %>
+    </div>
+    <br>  
+  <% end %>
+  
+</div>
+
+
+</head>
+
+</html>
+

@@ -1,0 +1,9 @@
+<% if current_user.admin? %>
+	<h1>New Landmark</h1>
+<% else %>
+	<h1>New Landmark Suggestion</h1>
+<% end %>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', landmarks_path %>

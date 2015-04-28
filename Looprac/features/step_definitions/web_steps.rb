@@ -30,8 +30,41 @@ module WithinHelpers
   end
 end
 World(WithinHelpers)
+Before do
+  Landmark.create(name: 'Giza', latitude: 100, longitude: 200, description: "First Land")
+#
+
+# Second Batch
+Landmark.create(name: 'City Stars', latitude: 100, longitude: 200, description: "Land")
+Landmark.create(name: 'Liverpool', latitude: 100, longitude: 200, description: "Land")
+Ride.create(user_id: 1, source_id: 1, destination_id: 2, seatNum: 4, description: "Hi")
+Ride.create(user_id: 1, source_id: 1, destination_id: 3, seatNum: 4, description: "Hi")
+Ride.create(user_id: 1, source_id: 2, destination_id: 3, seatNum: 4, description: "Hi")
+end
+
+Before do
+  User.create!(:username => 'user', :password => 'password', :email => 'email@student.guc.edu.eg', :first_name => 'Saeed', :last_name => 'Elhawa', :gender => 1, :admin => true)
+User.create!(:username => 'user2', :password => 'password', :email => 'email2@student.guc.edu.eg', :first_name => 'Le', :last_name => 'Grande', :gender => 1)
+end
+World(WithinHelpers)
 
 # Single-line step scoper
+
+# @author: Zuishek
+# login and logout steps for testing
+Given /^I am logged in as first user$/ do
+   @current_user = User.find_by(:username => 'user')
+  login_as(@current_user, :scope => :user)
+end
+Given /^I am logged in as second user$/ do
+   @current_user = User.find_by(:username => 'user2')
+  login_as(@current_user, :scope => :user)
+end
+When(/^I logout$/) do
+  logout
+end
+
+
 When /^(.*) within (.*[^:])$/ do |step, parent|
   with_scope(parent) { When step }
 end
