@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs">
-  <li role="presentation" > <li><%= link_to 'Rides', rides_userView_path %></li> </li>
+  <li role="presentation" > <li><%= link_to 'My Rides', rides_userView_path %></li> </li>
   <li role="presentation" class="active"><a href="#">Requests</a></li>
 </ul>
 <br>
@@ -16,11 +16,23 @@
       <br>
       <% if r.response == true %>
         <p style="background-color: #0cace7; font-size: 90%"> Ride Request Accepted </p>
+        
       <% elsif r.response == false %>
         <p style="background-color: LightGray; font-size: 90%"> Ride Request Rejected </p>
+        
       <% else %>
-        <button type="button" class="btn btn-default" ><%= link_to 'Accept', edit_request_path(r, :flag => true) %></button>
-        <button type="button" class="btn btn-default" ><%= link_to 'Reject', edit_request_path(r, :flag => false) %></button>
+        <button type="button" class="btn btn-default" >
+          <%= link_to(edit_request_path(r, :flag => true)) do %>
+               Accept
+               <% create_notification(r.id,1,r.requester_id) %>
+          <% end %>
+        </button>
+        <button type="button" class="btn btn-default" >
+         <%= link_to(edit_request_path(r, :flag => false)) do %>
+               Reject
+               <% create_notification(r.id,0,r.requester_id) %>
+          <% end %>
+        </button>
       <% end %>
     </div>  
       <!-- Accept/reject button -->

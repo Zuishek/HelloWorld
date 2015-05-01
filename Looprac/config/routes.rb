@@ -5,7 +5,10 @@ Rails.application.routes.draw do
   
   get "rides/offer"
   get "rides/userView"
+  get "rides/adminReview"
+  get "rides/adminDecision"
   get "landmarks/suggestions"
+  resources :notifications
   resources :rides
   resources :reports
   resources :posts do
@@ -40,7 +43,7 @@ end
 
 resources :users do
   member do
-    get :ratings, :ban
+    get :ratings, :ban, :rides, :reports
   end
 end
 resources :rides
@@ -62,8 +65,6 @@ end
   get "welcome/Registration"
   get "welcome/Profile"
   get "welcome/results"
-
-  get "welcome/user_settings"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
